@@ -1,9 +1,10 @@
-name,phone,email,city
-Anna,0501234567,anna@gmail.com,Rishon LeZion
-Olga,0529876543,olga@gmail.com,Tel Aviv
-Alex,0543456789,alex@gmail.com,Haifa
-Kate,0534567890,kate@gmail.com,Ashdod
-Max,0585678901,max@gmail.com,Holon
-Maria,0506789012,maria@gmail.com,Bat Yam
-David,0527890123,david@gmail.com,Bat Yam
-Lola,0548901234,lola@gmail.com,Rishon LeZion
+name|phone|email|city
+Anna|0501234567|anna@gmail.com|Rishon LeZion
+Olga|0529876543|olga@gmail.com|Tel Aviv
+Alex|0543456789|alex@gmail.com|Haifa
+Kate|0534567890|kate@gmail.com|Ashdod
+Max|0585678901|max@gmail.com|Holon
+Maria|0506789012|maria@gmail.com|Bat Yam
+David|0527890123|david@gmail.com|Bat Yam
+Lola|0548901234|lola@gmail.com|Rishon LeZion
+Willy|4326566|willy@gmail.com|Shokoladnaya fabrika
