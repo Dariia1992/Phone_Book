@@ -84,35 +84,42 @@ while is_running:
     for item in menu:
         print(item)
 
-    choice = int(input("Enter your choice: "))
+    try:
+        choice = int(input("Enter your choice: "))
 
-    if choice == 1:
-        show_all_contacts(my_phone_b)
+        if choice == 1:
+            show_all_contacts(my_phone_b)
 
-    elif choice == 2:
-        add_friends(my_phone_b)
-        save_book(my_phone_b)
+        elif choice == 2:
+            add_friends(my_phone_b)
+            save_book(my_phone_b)
 
-    elif choice == 3:
-        change_friends(my_phone_b)
-        save_book(my_phone_b)
+        elif choice == 3:
+            change_friends(my_phone_b)
+            save_book(my_phone_b)
 
-    elif choice == 4:
-        delete_friends(my_phone_b)
-        save_book(my_phone_b)
+        elif choice == 4:
+            delete_friends(my_phone_b)
+            save_book(my_phone_b)
 
-    elif choice == 5:
-        find_friend(my_phone_b)
+        elif choice == 5:
+            find_friend(my_phone_b)
 
-    elif choice == 6:
-        find_friend_phone(my_phone_b)
+        elif choice == 6:
+            find_friend_phone(my_phone_b)
 
-    elif choice == 7:
-        find_friend_city(my_phone_b)
+        elif choice == 7:
+            find_friend_city(my_phone_b)
 
-    elif choice == 8:
-        find_friend_email(my_phone_b)
+        elif choice == 8:
+            find_friend_email(my_phone_b)
 
-    elif choice == 0:
-        print("Exit!")
-        is_running = False
+        elif choice == 0:
+            print("Exit!")
+            is_running = False
+
+        else:
+            print("Invalid choice!")
+
+    except ValueError:
+        print("Please enter a number!")
